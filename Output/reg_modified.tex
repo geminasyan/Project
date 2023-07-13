@@ -1,0 +1,25 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+            &\multicolumn{1}{c}{Price}&\multicolumn{1}{c}{Price}&\multicolumn{1}{c}{Price}\\
+\hline
+Mileage         &      -238.9\sym{***}&      -173.7         &      -178.2         \\
+            &     (-4.50)         &     (-1.98)         &     (-1.97)         \\
+[1em]
+Length      &                     &       21.29         &       30.68         \\
+            &                     &      (0.93)         &      (1.34)         \\
+[1em]
+Repair record       &                     &                     &       698.3\sym{*}  \\
+            &                     &                     &      (2.05)         \\
+[1em]
+\_cons      &     11253.1\sym{***}&      5864.3         &      1783.9         \\
+            &      (9.61)         &      (1.00)         &      (0.30)         \\
+\hline
+\(N\)       &          74         &          74         &          69         \\
+\hline\hline
+\multicolumn{4}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
